@@ -25,7 +25,14 @@ SECRET_KEY = 'r7@@9pcp3l@9%5+=y528*t*c@n%38tf^z4ytu($5&w!-*s8tg2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'django.contrib.auth',	
+    'django.contrib.contenttypes',	
+    'django.contrib.sessions',	
+    'django.contrib.messages',	
+    'django.contrib.staticfiles',	
+    'core',
+]
 
 
 # Application definition
